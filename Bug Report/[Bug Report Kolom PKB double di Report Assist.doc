@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DWTSO-6404] [SQA] Terdapat kolom PKB double di Menu Report Asiist </title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://astraapps.astra.co.id/jira-software/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://astraapps.astra.co.id/jira-software/browse/DWTSO-5603">010122000058 - ASIIST</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://astraapps.astra.co.id/jira-software/browse/DWTSO-5603">DWTSO-5603</a>)</span>
+                <h3 class="formtitle"><img src="https://astraapps.astra.co.id/jira-software/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [DWTSO-6404]&nbsp;<a href="https://astraapps.astra.co.id/jira-software/browse/DWTSO-6404">[SQA] Terdapat kolom PKB double di Menu Report Asiist </a>
+            <span class="subText">
+               Created: 31/Jul/23                   &nbsp;Updated: 02/Aug/23
+
+                                                    &nbsp;Resolved: 31/Jul/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://astraapps.astra.co.id/jira-software/secure/BrowseProject.jspa?id=10734">Digital Workshop Toyota Sales Operation</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Sub-bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                P2
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="vcinaufa0089" id="word_reporter_vcinaufa0089" href="https://astraapps.astra.co.id/jira-software/secure/ViewProfile.jspa?name=vcinaufa0089">Naufal Zhafran Albaqi</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="atshendr0058" id="word_assignee_atshendr0058" href="https://astraapps.astra.co.id/jira-software/secure/ViewProfile.jspa?name=atshendr0058">Hendri Aliansyah</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-893087-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://astraapps.astra.co.id/jira-software/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    image-2023-07-31-11-11-46-020.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://astraapps.astra.co.id/jira-software/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    image-2023-08-02-19-18-59-988.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Defect</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                created by
+            </td>
+            <td>
+                <a href="https://astraapps.astra.co.id/jira-software/browse/TTDMS-14024">
+                     TTDMS-14024                 </a>
+            </td>
+            <td>
+                Sebagai SA saya dapat melihat report ...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Activity Type:</b></td>
+                <td id="customfield_10560-893087-value" class="value" bgcolor="#ffffff" width="80%">    Administration
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Bug Found In:</b></td>
+                <td id="customfield_10607-893087-value" class="value" bgcolor="#ffffff" width="80%">    QA
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Bug Category:</b></td>
+                <td id="customfield_13500-893087-value" class="value" bgcolor="#ffffff" width="80%">    Out of Scope
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10549-893087-value" class="value" bgcolor="#ffffff" width="80%">    S2
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-893087-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 (2023), Sprint 13 (2023), Sprint 14 (2023), Sprint 15 (2023), Sprint 16 (2023)</td>
+            </tr>
+                                    <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Step to Reproduce:</b></td>
+                <td id="customfield_10604-893087-value" class="value" bgcolor="#ffffff" width="80%">      -Login Aplikasi TDMS<br/>
+-Menuju Menu Servie --&gt; Report --&gt; Service Report List<br/>
+-Pilih report Download Data Transfer ASIIST<br/>
+-terdapat dua pilihan search pkb
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Expected Results:</b></td>
+                <td id="customfield_10605-893087-value" class="value" bgcolor="#ffffff" width="80%">      terdapat hanya satu pilihan search pkb (berdasarkan rentang) 
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Actual Results:</b></td>
+                <td id="customfield_10606-893087-value" class="value" bgcolor="#ffffff" width="80%">      terdapat dua pilihan search pkb  (berdasarkan rentang dan berdasarkan satu nomor) 
+  </td>
+            </tr>
+                                    <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>QA Server Available?:</b></td>
+                <td id="customfield_10600-893087-value" class="value" bgcolor="#ffffff" width="80%">    Yes
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>UTT Server Available?:</b></td>
+                <td id="customfield_10602-893087-value" class="value" bgcolor="#ffffff" width="80%">    Yes
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>ProdLike Server Available?:</b></td>
+                <td id="customfield_10601-893087-value" class="value" bgcolor="#ffffff" width="80%">    Yes
+</td>
+            </tr>
+                                    <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Progress Status:</b></td>
+                <td id="customfield_11340-893087-value" class="value" bgcolor="#ffffff" width="80%">    Not Started
+</td>
+            </tr>
+                                    <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Publish Regular:</b></td>
+                <td id="customfield_10603-893087-value" class="value" bgcolor="#ffffff" width="80%">    No
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Terdapat kolom PKB double di menu data Transfer Asiist</p>
+
+<p><span class="image-wrap" style=""><img src="https://astraapps.astra.co.id/jira-software/secure/attachment/110947/110947_image-2023-07-31-11-11-46-020.png" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-576942"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="atshendr0058" id="word_commented_atshendr0058" href="https://astraapps.astra.co.id/jira-software/secure/ViewProfile.jspa?name=atshendr0058">Hendri Aliansyah</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">02/Aug/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-576942"><td bgcolor="#ffffff">
+            <p><span class="image-wrap" style=""><img src="https://astraapps.astra.co.id/jira-software/secure/attachment/111550/111550_image-2023-08-02-19-18-59-988.png" style="border: 0px solid black" /></span></p>
+
+<p>Sudah dirubah yah mas</p>
+        </td></tr>
+            </table>
+Generated at Sat Jan 06 20:40:40 WIB 2024 by Naufal Zhafran Albaqi using Jira 8.13.3#813003-sha1:22ebedbb75c99b147c66f14e031dd8a2d214753a.
+
+</body>
+</html>
